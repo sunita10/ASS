@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	background-color: grey;
+}
+.container{
+		background-color: darkgrey;
+		width:700px;
+		height:500px;
+		/*padding-left: 100px;*/
+		margin:auto;
+		border: 3px solid grey;
+		margin-top: 5%;
+		font-family: Arial;
+
+
+
+	}
+	.wrapper{
+		width: 100%;
+		padding-left: 10px;
+		height : 300px;
+		/*border : 3px solid black;*/
+
+	}
+	/*.hh{
+		 background-color: lightgrey;
+		 height: 25px;
+	}*/
+
+	.first{
+		background-color: white;
+		width: 45%;
+		height:350px;
+		float: left;
+		overflow: hidden;
+		padding-left: 2%;
+		padding:10px;
+
+
+	}
+	.second{
+		background-color: white;
+		width: 45%;
+		height:350px;
+		float: left;
+		padding:10px;
+		overflow: hidden;
+		margin-left: 5px;
+/*		border: 3px solid lightgrey;
+*/	}
+	.clearfix{
+		clear: both;
+	}
+	header{
+		padding-left: 20px; 
+	}
+	p{
+		margin-top: -20px;
+	}
+	button{
+		background-color: black;
+		color:white;
+		height: 35px;
+	}
+	.inp{
+		background-color: lightgrey;
+		width: 200px;
+		height: 30px;
+		border-radius: 2px;
+	}
+table {
+    border-collapse: collapse;
+    border:2px solid grey;
+    width: 100%;
+    color: black;
+    font-family: arial,sans-serif;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: grey}
