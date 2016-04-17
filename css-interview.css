@@ -30,7 +30,7 @@ header{
 	left:40%;
 	top:10%;
 	bottom: 10%;
-	border-left:10px solid lightgray;
+	border-left:8px solid lightgray;
 	height:100%;
 	max-height: inherit;
 }
