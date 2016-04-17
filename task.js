@@ -11,7 +11,9 @@ function showError(error) {
 }
 
 function saveItemTable(task) {
-    var dataItem = '<tr><td><b>' + task.name + '</b>' + task.date + '</td><td><b>' + task.assigned + '</b></td></tr>';
+    var formdate =task.date.split('-');
+    formdate = formdate[1]+'/'+formdate[2]+'/'+formdate[0];
+    var dataItem = '<tr><td><b>' + task.name + '</b> ' + formdate + '</td><td><b>' + task.assigned + '</b></td></tr>';
     $("table").prepend(dataItem);
 }
 function saveError(error) {
@@ -33,6 +35,7 @@ $("form").submit(function (e) {
         success: saveItemTable(task),
         error: saveError
     });
+    this.reset();
 });
 
 

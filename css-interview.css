@@ -1,76 +1,67 @@
 body{
 	margin: 0;
-	background-color: grey;
+	border-style: outset;
+	border: 8px solid lightgray;
+	border-bottom: 50px solid lightgrey;
 }
 .container{
-		background-color: darkgrey;
-		width:700px;
-		height:500px;
-		/*padding-left: 100px;*/
-		margin:auto;
-		border: 3px solid grey;
-		margin-top: 5%;
-		font-family: Arial;
-
-
-
-	}
-	.wrapper{
-		width: 100%;
-		padding-left: 10px;
-		height : 300px;
-		/*border : 3px solid black;*/
-
-	}
-	/*.hh{
-		 background-color: lightgrey;
-		 height: 25px;
-	}*/
-
-	.first{
-		background-color: white;
-		width: 45%;
-		height:350px;
-		float: left;
-		overflow: hidden;
-		padding-left: 2%;
-		padding:10px;
-
-
-	}
-	.second{
-		background-color: white;
-		width: 45%;
-		height:350px;
-		float: left;
-		padding:10px;
-		overflow: hidden;
-		margin-left: 5px;
-/*		border: 3px solid lightgrey;
-*/	}
-	.clearfix{
-		clear: both;
-	}
-	header{
-		padding-left: 20px; 
-	}
-	p{
-		margin-top: -20px;
-	}
-	button{
-		background-color: black;
-		color:white;
-		height: 35px;
-	}
-	.inp{
-		background-color: lightgrey;
-		width: 200px;
-		height: 30px;
-		border-radius: 2px;
-	}
+	width: 100%;
+	margin: 40px;
+	height : 350px;
+}
+header{
+	 background-color: lightgrey;
+	 margin: auto;
+	 padding: 35px;
+	 padding-left: 60px;
+}
+.first{
+	position: relative;
+	background-color: white;
+	margin: auto;
+	width: 35%;
+	height:350px;
+	float: left;
+	overflow: hidden;
+	padding-left: 30px;
+}
+.line {
+	position:absolute;
+	left:40%;
+	top:10%;
+	bottom: 10%;
+	border-left:10px solid lightgray;
+	height:100%;
+	max-height: inherit;
+}
+.second{
+	position: relative;
+	background-color: white;
+	width: 45%;
+	height:350px;
+	float: left;
+	padding-left:30px;
+	overflow: hidden;
+	margin-left: 5px;
+}
+p{
+	margin-top: -20px;
+	padding-left: 10px;
+}
+button{
+	background-color: black;
+	color:white;
+	height: 35px;
+}
+.inp{
+	background-color: lightgrey;
+	width: 400px;
+	height: 30px;
+	border-radius: 2px;
+}
 table {
     border-collapse: collapse;
-    border:2px solid grey;
+    border:3px solid lightgrey;
     width: 100%;
     color: black;
     font-family: arial,sans-serif;
@@ -81,4 +72,4 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even){background-color: grey}
+tr:nth-child(even){background-color: lightgrey}
